@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  fastapialert:
+    build: FastAPI/.
+    env_file: FastAPI/.env
+    restart: always
+    network_mode: bridge
+    ports:
+      - "6000:6000"
+  telegramrecieveralert:
+    build: TelegramReciever/.
+    env_file: TelegramReciever/.env
+    restart: always

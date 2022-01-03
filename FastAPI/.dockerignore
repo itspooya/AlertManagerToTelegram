@@ -1,0 +1,4 @@
+alert.db
+templates/
+static
+app.py
