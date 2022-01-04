@@ -1,8 +1,9 @@
 # Telegramolert
 
-## This project aims to integrate Prometheus-Alert-Manager with Telegram
+## Goal? TLDR
+This project aims to integrate Prometheus-Alert-Manager with Telegram
 
-## Tech Stack: Python3, Prometheus, AlertManager, FastAPI, Python-Telegram-Bot
+### Tech Stack: Python3, Prometheus, AlertManager, FastAPI, Python-Telegram-Bot
 
 ## Why?
 
